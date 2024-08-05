@@ -1,0 +1,32 @@
+.department-tabs {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  flex: 1 1 auto;
+  padding: 20px 40px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.5em;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.1);
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+}
